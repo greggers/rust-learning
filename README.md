@@ -1,93 +1,66 @@
-# Rust Learning
+# Rust Programming Journey
 
+A comprehensive exploration of the Rust programming language following the official Rust book curriculum from Brown University. This repository documents my progression through advanced Rust concepts and demonstrates practical implementation of core programming principles.
 
+## Project Structure
 
-## Getting started
+The repository is organized into 20 chapters, each focusing on key Rust concepts:
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+1. Getting Started
+2. Programming a Guessing Game
+3. Common Programming Concepts
+4. Understanding Ownership
+5. Structs and Related Data
+6. Enums and Pattern Matching
+7. Project Management and Modules
+8. Common Collections
+9. Error Handling
+10. Generic Types, Traits, and Lifetimes
+11. Automated Testing
+12. I/O Project: CLI Program
+13. Functional Programming
+14. Cargo and Crates.io
+15. Smart Pointers
+16. Fearless Concurrency
+17. Async/Await
+18. Object-Oriented Features
+19. Pattern Matching
+20. Advanced Features
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Technical Competencies Demonstrated
 
-## Add your files
+- Memory safety and ownership concepts
+- Concurrent and parallel programming
+- Systems programming
+- Modern error handling
+- Test-driven development
+- Performance optimization
+- Async programming
+- Object-oriented and functional programming paradigms
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## Getting Started
 
+Each chapter directory contains working examples and implementations. To run any example:
+
+```bash
+cd chapter-XX/section-YY
+cargo run
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/gmwagner/rust-learning.git
-git branch -M main
-git push -uf origin main
-```
 
-## Integrate with your tools
+## Skills Showcase
 
-- [ ] [Set up project integrations](https://gitlab.com/gmwagner/rust-learning/-/settings/integrations)
+This repository demonstrates proficiency in:
 
-## Collaborate with your team
+ - Systems programming
+ - Safe concurrent programming
+ - Modern software development practices
+ - Advanced type system usage
+ - Memory-safe programming without garbage collection
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+## Development Status
 
-## Test and Deploy
+Active development - Following the Brown University Rust curriculum systematically.
 
-Use the built-in continuous integration in GitLab.
+## Connect
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Open to discussing Rust development opportunities and technical collaborations.
