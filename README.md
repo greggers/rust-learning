@@ -26,6 +26,7 @@ The repository is organized into 20 chapters, each focusing on key Rust concepts
 18. Object-Oriented Features
 19. Pattern Matching
 20. Advanced Features
+21. Final Project: Building a Multithreaded Web Server
 
 ## Technical Competencies Demonstrated
 
